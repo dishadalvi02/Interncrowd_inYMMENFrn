@@ -1,0 +1,243 @@
+
+.top{
+    background-color:black/*rgba(231, 233, 238, 0)*/;
+    /*padding-bottom:1000px;*/
+    /*margin-left:200px ;
+    margin-right: 200px;*/
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    
+
+}
+/*navigation*/
+.nav-link{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: rgb(36, 33, 44);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: right;
+    
+
+}
+.a-style{
+    color:rgb(249, 215, 200);
+    font-weight:bolder;
+    font-size: larger;
+    text-decoration: 0;
+    padding-right: 20px;
+}
+.a-style:hover{
+    color:white;
+    
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 50px;
+    margin-left:200px ;
+    margin-right: 200px;
+    
+
+}
+.intro{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.symbol{
+    margin-top: 50px;
+    
+}
+.symbpic{
+    width:60px;
+    border-radius:50px;
+
+}
+.name{
+    margin-bottom: 0;
+    color: rgb(249, 215, 200);
+
+    
+}
+.about{
+    
+    margin-top: 0;
+}
+.start{
+    background-color:rgb(255, 244, 239) ;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    cursor:pointer;
+    width:200px;
+    transition-delay:0.15s ;
+    
+}
+.start:hover{
+    background-color: rgb(246, 235, 231);
+    color: aliceblue;
+}
+
+.image2{
+    border-color: white; 
+    
+}
+
+/*services provided*/
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-left:200px ;
+    margin-right: 200px;
+    
+}
+.select{
+    flex:1;
+    border:1px solid rgb(249, 215, 200);
+    box-shadow: 6px 6px rgb(244, 178, 149);
+    background-color:rgb(36, 33, 44);
+    color:rgb(249, 215, 200);
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius:10px;
+    transition-delay:0.15s ;
+    
+
+}
+.select h4{
+    color:rgb(249, 215, 200)/* rgba(7, 7, 7, 0.737)*/;
+   
+}
+.select:hover{
+    background-color:rgb(246, 235, 231);
+    color:rgb(244, 178, 149)/* rgb(215, 216, 218)*/;
+
+}
+.select h4:hover{
+    color: rgb(251, 198, 176)/*rgb(215, 216, 218)*/;
+}
+.logos{
+    margin-top: 20px;
+    border-radius: 55px;
+    width:100px
+}
+/*services provided*/
+/*faq-align*/
+.faq-align{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+/*faq*/
+.faq{
+    flex:1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left:200px ;
+    margin-right: 200px;
+    
+    
+
+}
+.question{
+    flex:1;
+    border:1px solid rgb(249, 215, 200);
+    text-align: left;
+    cursor: pointer;
+    justify-content: space-evenly;
+    background-color:rgb(36, 33, 44)/*rgb(255, 244, 239)*/;
+    box-shadow: 6px 6px rgb(244, 178, 149);
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius:8px;
+    margin-bottom:20px ;
+
+}
+.accordian-link{
+    color:black;
+    text-decoration: none;
+    width:100%
+}
+.accordian-link h3{
+    background-color:rgb(36, 33, 44)/*rgb(255, 244, 239)*/;
+    color:rgb(249, 215, 200);
+
+}
+
+.answer{
+    flex:1;
+    background-color:rgb(36, 33, 44)/*rgb(255, 244, 239)*/;
+    color:rgb(249, 215, 200);
+    text-align:left;
+    cursor: pointer;
+    justify-content: space-evenly;
+    padding-right:20px;
+    padding-left: 20px;
+    max-height: 0px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+    margin-bottom:12px;
+
+    
+}
+.question:target .answer{
+    max-height:50px;
+    
+}
+.end{
+    display:flex; 
+    margin-top: 20px;
+
+}
+.end1{
+    flex:1;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.end1 h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size:32px;
+    text-align: center;
+    color: rgb(249, 215, 200);
+}
+.logo-decor{
+    text-decoration: none;
+    color: rgb(249, 215, 200);
+}
+
+.head-t{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: rgb(249, 215, 200);
+    
+}
+/*insta linkden mail*/
+.iconn{
+    width:60px;
+    height: 75px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: rgb(249, 215, 200);
+    
+
+
+}
